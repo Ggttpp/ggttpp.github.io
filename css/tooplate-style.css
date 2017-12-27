@@ -1,4 +1,4 @@
-/* 
+/*
 
 Template 2094 Mason
 
@@ -11,9 +11,9 @@ a:focus {
 	outline: none;
 }
 
-ul { 
+ul {
 	padding: 0;
-	margin: 0; 
+	margin: 0;
 }
 
 p { line-height: 1.8; }
@@ -48,7 +48,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.tm-body { 
+.tm-body {
 	margin-top: 20px;
 	position: relative;
 	overflow-x: hidden;
@@ -91,9 +91,9 @@ body {
 	width: 100%;
 }
 
-.tm-nav-item-link {	
+.tm-nav-item-link {
 	padding: 10px;
-	width: 100%;	
+	width: 100%;
 }
 
 .tm-nav-item-link:focus { text-decoration: none; }
@@ -121,9 +121,9 @@ body {
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1.2rem;
-	padding: 15px 50px; 
+	padding: 15px 50px;
 	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease; 
+	transition: all 0.3s ease;
 }
 
 .tm-button-normal:focus { outline: none; }
@@ -146,7 +146,7 @@ body {
 .tm-button-red:hover { background-color: #f37373; }
 .tm-bg-gray { background-color: #666666; }
 .tm-button-no-border { border: none; }
-.tm-button-gray { 
+.tm-button-gray {
 	background-color: #666666;
 	color: white;
 	border: none;
@@ -170,7 +170,7 @@ body {
 }
 
 .tm-banner { padding: 0; }
-	
+
 .tm-banner-inner {
 	background-color: #CC6733;
 	color: white;
@@ -196,13 +196,13 @@ body {
             justify-content: center;
 }
 
-.tm-banner-title { 
-	font-size: 3.6rem;
-	letter-spacing: 2px; 
-	text-transform: uppercase; 
+.tm-banner-title {
+	font-size: 2.2rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
-.tm-banner-subtitle { 
+.tm-banner-subtitle {
 	color: #FECB99;
 	font-size: 1.4rem;
 }
@@ -224,10 +224,10 @@ body {
 /* fluid 5 columns */
 .grid-item { margin: 5px; }
 
-/* Firefox hack 
+/* Firefox hack
    https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
 */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
   	.grid figure {
 		margin: 10px 1.1666%;	/* padding-bottom in % not working in FF, so use em instead. */
 	}
@@ -237,7 +237,7 @@ body {
 
 .form-control {
 	border-radius: 0;
-	font-size: 1em;	
+	font-size: 1em;
 }
 
 .form-control:focus {
@@ -255,11 +255,11 @@ body {
 
 #google-map {
     height: 360px;
-    width: 100%;    
+    width: 100%;
 }
 
-.tm-content-box-home { 
-	position: relative; 
+.tm-content-box-home {
+	position: relative;
 	margin-bottom: 63px;
 }
 
@@ -294,14 +294,14 @@ address { line-height: 2; }
 	position: relative;
 	margin: -1.5rem auto;
 	list-style: none;
-	text-align: center;	
+	text-align: center;
 }
 
-@media (min-width: 524px) {	
-	/* Firefox hack 
+@media (min-width: 524px) {
+	/* Firefox hack
    		https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
 	*/
-	@-moz-document url-prefix() { 
+	@-moz-document url-prefix() {
 	  	.grid figure {
 			margin: 8px 1%;	/* padding-bottom in % not working in FF, so use em instead. */
 		}
@@ -318,10 +318,10 @@ address { line-height: 2; }
 	.tm-section-title { margin-bottom: 30px; }
 	.tm-box-pad { padding: 45px 40px; }
 
-	/* Firefox hack 
+	/* Firefox hack
    	https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/
 	*/
-	@-moz-document url-prefix() { 
+	@-moz-document url-prefix() {
 	  	.grid figure {
 			margin: 10px 1.1666%;	/* padding-bottom in % not working in FF, so use em instead. */
 		}
@@ -351,7 +351,7 @@ address { line-height: 2; }
 	.tm-nav-item-link { padding: 12px; }
 	.tm-main-content { margin-left: 370px; }
 	.tm-section-title { margin-bottom: 20px; }
-	.tm-box-pad { padding: 45px; }	
+	.tm-box-pad { padding: 45px; }
 }
 
 @media (min-width: 1400px) {
@@ -362,15 +362,15 @@ address { line-height: 2; }
 	.tm-section-title { margin-bottom: 30px; }
 }
 
-.tm-main-nav { 
-	display: -webkit-box; 
-	display: -webkit-flex; 
-	display: -ms-flexbox; 
+.tm-main-nav {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	height: 100%;
 	padding: 40px;
 }
 
 @media screen and (max-width: 564px) {
-	.tm-banner-title { font-size: 2.8em; }
+	.tm-banner-title { font-size: 2em; }
 }
